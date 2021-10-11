@@ -1,0 +1,204 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.container.dark .kozbeszerzesek_left_article h1 {
+	color: yellow;
+	transition: 1s;
+	text-shadow: none;
+
+}
+
+.container.dark .kozbeszerzesek_tabs li a { 
+	color: yellow;
+}
+
+.container.dark .kozbeszerzesek_sections ul li a { 
+	color: yellow;
+	transition: 1s;
+}
+
+.container.dark .kozbeszerzesek_sections ul i { 
+	color: yellow;
+	transition: 1s;
+}
+
+.container.dark .kozbeszerzesek_sections ul h2 { 
+	color: white;
+	transition: 1s;
+}
+
+.container.dark .kozbeszerzesek_tabs li .active { 
+	background: black;	
+	border: 2px solid yellow;
+	border-radius: 35px;
+	color: white;
+}
+
+
+
+.kozbeszerzesek_left_article h1 {	
+	margin-top: 2%;
+	margin-bottom: 2%;
+	color: #178616;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 30px;
+	text-shadow: 2px 2px 5px #888888;
+}
+
+.kozbeszerzesek_left_article {
+	width: 100%;
+	height: auto;
+	margin-bottom: 100px;
+	
+}
+
+.wrap{
+	padding-bottom: 100px;
+}
+
+
+
+
+ul.kozbeszerzesek_tabs{
+	width: 98%;
+	list-style: none;
+	display: flex;
+	margin: 0;
+	padding: 0;
+	margin-left: 1%
+}
+
+ul.kozbeszerzesek_tabs li{
+	width: 98%;
+}
+
+ul.kozbeszerzesek_tabs li a{
+	color: #111111;
+	text-decoration: none;
+	font-size: 20px;
+	display: block;
+	padding: 15px 0px;
+	text-align: center;
+	
+}
+
+ul.kozbeszerzesek_tabs li a.active {
+	color: white;
+	border-radius: 35px;
+	font-weight: bold;
+}
+
+.kozbeszerzesek_sections{
+	width: 98%;
+	margin-left: 1%;
+}
+
+.kozbeszerzesek_sections article{
+	padding: 10px;
+	width: 98%;
+}
+
+.kozbeszerzesek_sections h2{
+	margin-top: 30px;
+	margin-bottom: 0px;
+	color: #5E5D5E;
+	font-size: 25px;
+	text-align: center;
+}
+
+.kozbeszerzesek_sections i{
+	margin-top: 35px;
+	color: #5E5D5E;
+	font-size: 40px;
+	text-align: center;
+}
+
+.kozbeszerzesek_sections ul{
+	list-style-type: none;
+	text-align: center;
+}
+
+.kozbeszerzesek_sections ul li{
+	padding-top: 1%;
+	color: #5E5D5E;
+	font-size: 25px;
+}
+
+.kozbeszerzesek_sections ul li a{
+	text-decoration: none;
+	color: #5E5D5E;
+}
+
+.kozbeszerzesek_sections ul li a:hover{
+	color: green;
+	
+}
+
+
+/* Create an active/current "tab button" class */
+	
+@media (min-width: 769px) and (max-width: 1366px) {	
+	.kozbeszerzesek_left_article h1 {	
+		margin-top: 35px;
+		font-size: 25px;
+	}
+	
+	.kozbeszerzesek_sections h2{
+		font-size: 22px;
+	}
+	
+	.kozbeszerzesek_sections ul li{
+		font-size: 20px;
+	}
+	
+	ul.kozbeszerzesek_tabs li a{
+		font-size: 16px;
+	}
+}
+
+@media (min-width: 651px) and (max-width: 768px) {	
+	.kozbeszerzesek_left_article h1 {	
+		font-size: 22px;
+		margin-top: 35px;
+	}
+	
+	.kozbeszerzesek_sections h2{
+		font-size: 20px;
+	}
+	
+	.kozbeszerzesek_sections ul li{
+		font-size: 18px;
+	}
+	
+	ul.kozbeszerzesek_tabs li a{
+		font-size: 12px;
+	}
+	
+}
+
+@media (max-width : 650px ){
+	.kozbeszerzesek_left_article h1 {	
+		font-size: 20px;
+		margin-top: 35px;
+	}
+	
+	.kozbeszerzesek_sections h2{
+		font-size: 18px;
+	}
+	
+	.kozbeszerzesek_sections ul li{
+		font-size: 16px;
+	}
+	
+	ul.kozbeszerzesek_tabs li a{
+		font-size: 10px;
+	}
+	
+	.kozbeszerzesek_sections ul li img{
+		width: 6%;
+	}
+}
+

@@ -1,0 +1,343 @@
+
+* {
+	margin: 0px; 
+	padding: 0px; 
+	box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6 {margin: 0px;}
+
+p {margin: 0px;}
+
+ul, li {
+	margin: 0px;
+	list-style-type: none;
+}
+
+/* magas kontraszt mód kezdete */
+
+.togglegyl {
+	position: absolute;
+   	top: 50%;
+   	left: 50%;
+   	margin-top: 8px; /* Half the height */
+	margin-left: 10px;
+	background: rgb(80,80,80);
+	border: 2px solid #fff;
+	height: 34px;
+	width: 69px;
+	cursor: pointer;
+	border-radius: 20px;
+	transition: 0.5s;
+}
+
+.togglegyl.darkactive{
+	background: #00151f;
+	border: 2px solid #fff;
+	
+}
+
+.togglegyl:before{
+	content: '';
+	position: absolute;
+	top: 0px;
+	left: 1px;
+	width: 30px;
+	height: 30px;
+	background: url("../images/high_contrast.png") no-repeat; 
+    background-size: contain;
+	border-radius: 50%;
+	transition: 0.5s;
+}
+
+.togglegyl.darkactive:before{
+	left: 34px;
+	background: url("../images/high_contrast.png") no-repeat; 
+    background-size: contain;
+}
+
+
+.container.dark .menedzsment_left_article h1 {
+	color: yellow;
+	text-shadow: none;
+	transition: 1s;
+}
+
+.container.dark .wrap-table100 {
+	box-shadow: none;
+}
+
+.container.dark .table100-head th{
+	background: black;
+	transition: 1s;
+	color: yellow;
+}
+
+
+.container.dark tbody tr {
+	background: black;
+	transition: 1s;
+	color: yellow;
+}
+
+.container.dark tbody tr a{
+	background: black;
+	transition: 1s;
+	color: yellow;
+}
+
+.container.dark tbody tr:hover {
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+
+
+.menedzsment_left_article h1 {
+	margin-top: 2%;
+	color: #178616;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 30px;
+	text-shadow: 2px 2px 5px #888888;
+}
+
+
+.menedzsment_left_article {
+	width: 100%;
+	float: left;
+	height: auto;
+	margin-bottom: 100px;
+}
+
+.social p{
+	padding-bottom: 20px;
+}
+.container-table100 {
+  width: 100%;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 33px 10px;
+	
+}
+
+.wrap-table100 {
+  width: 98%;
+	box-shadow: 5px 5px 10px #888888;
+  border-radius: 10px;
+}
+
+table {
+  border-spacing: 1;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+table * {
+  position: relative;
+}
+table td, table th {
+  padding-left: 8px;
+}
+table thead tr {
+  height: 60px;
+  background: #0E5834
+}
+table tbody tr {
+  height: 50px;
+}
+table tbody tr:last-child {
+  border: 0;
+}
+table td, table th {
+  text-align: left;
+}
+table td.l, table th.l {
+  text-align: right;
+}
+table td.c, table th.c {
+  text-align: center;
+}
+table td.r, table th.r {
+  text-align: center;
+}
+
+table a{
+	color: #717070;
+	text-decoration: none;
+}
+
+.table100-head th{
+  font-size: 18px;
+  color: #fff;
+  line-height: 1.2;
+  font-weight: unset;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #E8E8E8;
+}
+
+tbody tr {
+  font-size: 15px;
+  color: #808080;
+  line-height: 1.2;
+  font-weight: unset;
+}
+
+tbody tr:hover {
+  color: #555555;
+  background-color: #E8E8E8;
+  cursor: pointer;
+}
+
+.column1 {
+  	width: 20%;
+ 	text-align: center;
+	font-size: 20px;
+	  
+}
+
+.column2 {
+  	width: 20%;
+  	text-align: center;	
+	font-size: 20px;
+}
+
+.column3 {
+ 	width: 20%;
+  	text-align: center;
+	font-size: 20px;
+}
+
+.column4 {
+  	width: 20%;
+  	text-align: center;
+	font-size: 20px;
+	
+}
+
+.column5 {
+ 	width: 20%;
+  	text-align: center;
+	font-size: 20px;
+}
+
+@media screen and (max-width: 992px) {
+	  table {
+		display: block;
+	  }
+	  table > *, table tr, table td, table th {
+		display: block;
+	  }
+	  table thead {
+		display: none;
+	  }
+	  table tbody tr {
+		height: auto;
+		padding: 37px 0;
+	  }
+	  table tbody tr td {
+		padding-left: 40% !important;
+		margin-bottom: 24px;
+	  }
+	  table tbody tr td:last-child {
+		margin-bottom: 0;
+	  }
+	  table tbody tr td:before {
+		font-size: 14px;
+		color: #999999;
+		line-height: 1.2;
+		font-weight: unset;
+		position: absolute;
+		width: 40%;
+		left: 30px;
+		top: 0;
+	  }
+	  table tbody tr td:nth-child(1):before {
+		content: "Név";
+	  }
+	  table tbody tr td:nth-child(2):before {
+		content: "Beosztás";
+	  }
+	  table tbody tr td:nth-child(3):before {
+		content: "Telefon";
+	  }
+	  table tbody tr td:nth-child(4):before {
+		content: "Telefax";
+	  }
+	  table tbody tr td:nth-child(5):before {
+		content: "E-mail cím";
+	  }
+
+	  .column4,
+	  .column5,
+	  .column6 {
+		text-align: left;
+	  }
+
+	  .column4,
+	  .column5,
+	  .column6,
+	  .column1,
+	  .column2,
+	  .column3 {
+		width: 100%;
+		text-align: justify;
+	  }
+
+	  tbody tr {
+		font-size: 14px;
+	  }
+	
+	
+}
+
+@media (max-width: 650px) {
+  	.container-table100 {
+    	padding-left: 15px;
+    	padding-right: 15px;
+		margin-bottom: 50px
+  	}
+	.menedzsment_left_article h1 {
+		margin-top: 35px;
+		font-size: 22px;
+	}
+	
+	.column1 {
+		font-size: 16px;
+	  	text-align: left;
+	}
+
+	.column2 {	
+		font-size: 16px;
+		text-align: left;
+	}
+
+	.column3 {
+		font-size: 16px;
+	}
+
+	.column4 {
+		font-size: 16px;
+
+	}
+
+	.column5 {
+		font-size: 16px;
+	}
+
+}
+

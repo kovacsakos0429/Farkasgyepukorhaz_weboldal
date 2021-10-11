@@ -1,0 +1,183 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.koltsegvetes_left_article h1 {	
+	margin-top: 2%;
+	margin-bottom: 2%;
+	color: #178616;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 30px;
+	text-shadow: 2px 2px 5px #888888;
+}
+
+.koltsegvetes_left_article {
+	width: 100%;
+	height: auto;
+	margin-bottom: 100px;
+	
+}
+
+.wrap{
+	padding-bottom: 100px;
+}
+
+
+ul.koltsegvetes_tabs{
+	width: 98%;
+	list-style: none;
+	display: flex;
+	margin: 0;
+	padding: 0;
+	margin-left: 1%;
+}
+
+ul.koltsegvetes_tabs li{
+	width: 98%;
+}
+
+ul.koltsegvetes_tabs li a{
+	color: #111111;
+	text-decoration: none;
+	font-size: 20px;
+	display: block;
+	padding: 15px 0px;
+	text-align: center;
+	
+}
+
+ul.koltsegvetes_tabs li a.active {
+	color: white;
+	border-radius: 35px;
+	font-weight: bold;
+}
+
+.koltsegvetes_sections{
+	width: 98%;
+	margin-left: 1%;
+}
+
+.koltsegvetes_sections article{
+	padding: 10px;
+	width: 98%;
+}
+
+.koltsegvetes_sections h2{
+	margin-top: 30px;
+	margin-bottom: 0px;
+	color: #5E5D5E;
+	font-size: 25px;
+	text-align: center;
+}
+
+.koltsegvetes_sections i{
+	margin-top: 35px;
+	color: #5E5D5E;
+	font-size: 40px;
+	text-align: center;
+}
+
+.koltsegvetes_sections ul{
+	list-style-type: none;
+	text-align: center;
+}
+
+.koltsegvetes_sections ul li{
+	padding-top: 1%;
+	color: #5E5D5E;
+	font-size: 25px;
+}
+
+.koltsegvetes_sections ul li a{
+	text-decoration: none;
+	color: #5E5D5E;
+}
+
+.koltsegvetes_sections ul li a:hover{
+	color: green;
+	
+}
+	
+@media (min-width: 769px) and (max-width: 1366px) {	
+	.koltsegvetes_left_article h1 {	
+		margin-top: 35px;
+		font-size: 25px;
+	}
+	
+	.koltsegvetes_sections h2{
+		font-size: 22px;
+	}
+	
+	.koltsegvetes_sections ul li{
+		font-size: 20px;
+	}
+	
+	ul.koltsegvetes_tabs li a{
+		font-size: 16px;
+	}
+}
+
+@media (min-width: 651px) and (max-width: 768px) {	
+	.koltsegvetes_left_article h1 {	
+		font-size: 22px;
+		margin-top: 35px;
+	}
+	
+	.koltsegvetes_sections h2{
+		font-size: 20px;
+	}
+	
+	.koltsegvetes_sections ul li{
+		font-size: 18px;
+	}
+	
+	ul.koltsegvetes_tabs li a{
+		font-size: 12px;
+	}
+	
+}
+
+@media (max-width : 650px ){
+	
+	ul.koltsegvetes_tabs{
+		width: 20%;
+		list-style: none;
+		display: block;
+		margin: 0;
+		padding: 0;
+		margin-left: 1%;
+	}
+	
+	.koltsegvetes_sections{
+		width: 80%;
+		
+	}
+	
+	.koltsegvetes_left_article h1 {	
+		font-size: 20px;
+		margin-top: 35px;
+		margin-bottom: 35px;
+	}
+	
+	.koltsegvetes_sections h2{
+		font-size: 18px;
+	}
+	
+	.koltsegvetes_sections ul li{
+		font-size: 16px;
+	}
+	
+	ul.koltsegvetes_tabs li a{
+		font-size: 10px;
+	}
+	
+	.koltsegvetes_sections ul li img{
+		width: 6%;
+	}
+}
+
+
+
+

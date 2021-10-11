@@ -1,0 +1,135 @@
+@charset "UTF-8";
+
+.container.dark .row i{
+	color: yellow;
+	transition: 1s;
+
+}
+
+.container.dark h1 {
+	color: yellow;
+	transition: 1s;
+	text-shadow: none;
+
+}
+
+.container.dark .video-container{
+	box-shadow: none;
+}
+
+.contact{
+	height: auto;
+	margin-bottom: 100px;
+}
+
+.cim{
+	margin-top: 2%;
+	margin-bottom: 3%;
+	color: #178616;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 30px;
+	text-shadow: 2px 2px 5px #888888;
+}
+
+.row i{
+	margin-top: 30px;
+	color: #5E5D5E;
+	font-size: 50px;
+	text-align: center;
+}
+
+.row i:hover{
+	color: green;
+}
+
+.row h4{
+	font-size: 22px;
+}
+
+.columns {
+	width: 20%;
+}
+
+.thumbnail_align{
+	text-align: center;
+}
+
+.video-container {
+  	width: 42.5%;
+  	margin-left: 5%;
+	margin-bottom: 5%;
+  	background: white;
+  	display: inline-block;
+	box-shadow: 5px 5px 10px #888888;
+}
+
+.responsive-video {  
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
+}
+
+.responsive-video iframe, .responsive-video video {
+  position: absolute;
+  width: 100%;
+  height: 100%;  
+}
+
+
+
+@media (min-width: 769px) and (max-width: 1366px) {
+	.cim {
+		margin-top: 35px;
+		font-size: 25px;
+	}
+	
+	
+}
+
+@media (min-width: 651px) and (max-width: 768px) {
+	.contact .cim{
+		margin-top: 35px;
+		font-size: 22px;
+	}
+	
+	.contact h1 {
+		font-size: 22px
+	}
+}
+
+@media (max-width : 650px ){
+	.contact .cim{
+		font-size: 20px;
+		margin-top: 35px;
+	}
+	.contact{
+		margin-bottom: 200px;
+	}
+	
+	.video-container {
+  	width: 90%;
+  	margin-left: 5%;
+	margin-bottom: 5%;
+  	background: white;
+  	display: inline-block;
+	box-shadow: 5px 5px 10px #888888;
+	}
+	
+	.columns {
+		width: 100%;
+		margin-top: 15px;
+		margin-right: 0px;
+		margin-bottom: 15px;
+		margin-left: 0px;
+		padding-top: 0PX;
+		padding-right: 0PX;
+		padding-bottom: 0PX;
+		padding-left: 0px;
+	}
+}
+
+

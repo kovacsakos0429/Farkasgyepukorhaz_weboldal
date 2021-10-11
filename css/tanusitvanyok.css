@@ -1,0 +1,177 @@
+@charset "utf-8";
+/* CSS Document */
+
+.container.dark .cim {
+	color: yellow;
+	transition: 1s;
+	text-shadow: none;
+
+}
+
+.container.dark .tanusitvanyok_right_article ul li a{
+	color: yellow;
+	transition: 1s;
+	text-shadow: none;
+}
+
+.container.dark .tanusitvanyok_left_article ul li a{
+	color: yellow;
+	transition: 1s;
+	text-shadow: none;
+}
+
+.cim{
+	margin-top: 2%;
+	margin-bottom: 2%;
+	color: #178616;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 30px;
+	text-shadow: 2px 2px 5px #888888;
+}
+
+
+.tanusitvanyok_right_article{
+	margin-top: 1%;
+	padding-bottom: 150px;
+	width: 50%;
+	float: right;
+	text-align: center;
+}
+
+.tanusitvanyok_right_article ul{
+	padding: 10px;
+	list-style-type: none;
+}
+
+.tanusitvanyok_right_article ul li{
+	padding-top: 2%;
+	color: #717070;
+	text-align: center;
+	font-size: 22px;
+	width: 80%;
+	
+}
+
+.tanusitvanyok_right_article ul li a{
+	text-decoration: none;
+	color: #717070;
+}
+
+.tanusitvanyok_right_article ul li a:hover{
+	color: green;
+}
+
+.tanusitvanyok_left_article {
+	margin-top: 1%;
+	width: 50%;
+	float: left;
+}
+
+.tanusitvanyok_left_article ul{
+	padding: 10px;
+	list-style-type: none;
+}
+
+.tanusitvanyok_left_article ul li{
+	padding-top: 2%;
+	color: #717070;
+	text-align: center;
+	font-size: 22px;
+	width: 80%;
+	
+}
+
+.tanusitvanyok_left_article ul li a{
+	text-decoration: none;
+	color: #717070;
+}
+
+.tanusitvanyok_left_article ul li a:hover{
+	color: green;
+}
+
+
+.zoom {
+    transition: transform .2s; /* Animation */
+}
+
+.zoom:hover {
+    transform: scale(1.5);
+}
+
+.iso_img{
+	text-align: center;
+	margin-top: 4%;
+}
+
+@media (min-width: 769px) and (max-width: 1366px) {
+	.cim {
+		margin-top: 35px;
+		font-size: 25px;
+	}
+	
+	.tanusitvanyok_left_article {
+		padding-bottom: 150px;
+	}
+}
+
+@media (min-width: 651px) and (max-width: 768px) {
+	
+	
+	.tanusitvanyok_left_article ul li{
+		font-size: 20px;
+	
+	}
+	
+	.tanusitvanyok_left_article {
+		width: 100%;
+		height: auto;
+	}
+	
+	.tanusitvanyok_right_article {
+		width: 100%;
+		height: auto;
+		padding-bottom: 150px;
+	}
+	
+	
+	.cim {
+		font-size: 22px;
+		margin-top: 35px;
+	}
+}
+
+@media (max-width : 650px ){
+	
+	.tanusitvanyok_left_article {
+		width: 100%;
+		height: auto;
+	}
+	
+	.tanusitvanyok_right_article {
+		width: 100%;
+		height: auto;
+		padding-bottom: 150px;
+	}
+	
+	
+	.tanusitvanyok_left_article ul li{
+		font-size: 18px;
+	}
+	
+	.tanusitvanyok_right_article ul li{
+		font-size: 18px;
+	}
+	
+	.cim {
+		font-size: 20px;
+		margin-top: 35px;
+	}
+}
+
+
+
+
+
