@@ -106,6 +106,7 @@
         </li>
          <li><a href="allasok">ÁLLÁSAJÁNLATOK</a></li>
 		 <li><a href="elerhetosegek">ELÉRHETŐSÉGEK</a></li>
+		 <li id="toggle"><div title="Magas kontraszt gyengénlátóknak" class="toggle"></div></li>
       </ul>
     </nav>
   </div>
@@ -154,9 +155,7 @@
 			<div class="kep_right_article">
 				<img data-aos="fade-left" data-aos-duration="1000"  src="documents/palyazatok/keop560/6.jpg" alt="">
 			</div>
-			<div class="kep_left_article">
-				<img data-aos="fade-right" data-aos-duration="1000"  src="documents/palyazatok/keop560/7.jpg" alt="">
-			</div>
+			
 	</article>
   </section>
  <footer> 
@@ -235,6 +234,14 @@
 		AOS.init({disable: 'tablet'});
 	});
 
+</script>
+<script>
+	$(document).ready(function(){
+		$('.toggle').click(function(){
+			$('.toggle').toggleClass('darkactive')
+			$('.container').toggleClass('dark')
+		})
+	})
 </script>
 </body>
 </html>

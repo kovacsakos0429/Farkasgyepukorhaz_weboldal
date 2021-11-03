@@ -1,5 +1,40 @@
 @charset "utf-8";
-/* CSS Document */
+
+.container.dark .efop_left_article h1 {
+	color: yellow;
+	transition: 1s;
+	text-shadow: none;
+
+}
+
+.container.dark .efop_left_article h3 {
+	color: yellow;
+	transition: 1s;
+	text-shadow: none;
+
+}
+
+.container.dark .efop_left_article p{
+	color: yellow;
+	transition: 1s;
+	text-shadow: none;
+
+}
+
+.container.dark .efop_left_article ul{
+	color: yellow;
+	transition: 1s;
+	text-shadow: none;
+
+}
+
+.container.dark .efop_left_article a{
+	color: yellow;
+	transition: 1s;
+	text-shadow: none;
+
+}
+
 
 .efop_left_article {
 	width: 100%;

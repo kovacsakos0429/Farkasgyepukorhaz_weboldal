@@ -1,6 +1,5 @@
 @charset "UTF-8";
 
-
 .container {
 	 min-height: 100vh; /* will cover the 100% of viewport */
 	 overflow: hidden;
@@ -195,7 +194,7 @@
 }
 #popup{
 	width: 400px;
-	height: 240px;
+	height: 270px;
 	background: #F0F0E1;
 	border: 5px solid red;
 	border-radius: 25px;
@@ -211,6 +210,16 @@
 	margin-left: -200px;
 }
 
+#popup a{
+	text-decoration: none;
+	color: green;
+}
+
+#popup a:hover{
+	text-decoration: underline;
+}
+
+
 footer {
 	 position: absolute;
 	 bottom: 0;
@@ -218,13 +227,13 @@ footer {
 	 height: 90px;	
 	 box-shadow: 0 -2px 25px 4px black;
 	 background: rgba(65,150,90,1);
-background: -moz-linear-gradient(top, rgba(65,150,90,1) 0%, rgba(41,87,55,1) 50%, rgba(16,23,19,1) 100%);
-background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(65,150,90,1)), color-stop(50%, rgba(41,87,55,1)), color-stop(100%, rgba(16,23,19,1)));
-background: -webkit-linear-gradient(top, rgba(65,150,90,1) 0%, rgba(41,87,55,1) 50%, rgba(16,23,19,1) 100%);
-background: -o-linear-gradient(top, rgba(65,150,90,1) 0%, rgba(41,87,55,1) 50%, rgba(16,23,19,1) 100%);
-background: -ms-linear-gradient(top, rgba(65,150,90,1) 0%, rgba(41,87,55,1) 50%, rgba(16,23,19,1) 100%);
-background: linear-gradient(to bottom, rgba(65,150,90,1) 0%, rgba(41,87,55,1) 50%, rgba(16,23,19,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#41965a', endColorstr='#101713', GradientType=0 );
+	background: -moz-linear-gradient(top, rgba(65,150,90,1) 0%, rgba(41,87,55,1) 50%, rgba(16,23,19,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(65,150,90,1)), color-stop(50%, rgba(41,87,55,1)), color-stop(100%, rgba(16,23,19,1)));
+	background: -webkit-linear-gradient(top, rgba(65,150,90,1) 0%, rgba(41,87,55,1) 50%, rgba(16,23,19,1) 100%);
+	background: -o-linear-gradient(top, rgba(65,150,90,1) 0%, rgba(41,87,55,1) 50%, rgba(16,23,19,1) 100%);
+	background: -ms-linear-gradient(top, rgba(65,150,90,1) 0%, rgba(41,87,55,1) 50%, rgba(16,23,19,1) 100%);
+	background: linear-gradient(to bottom, rgba(65,150,90,1) 0%, rgba(41,87,55,1) 50%, rgba(16,23,19,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#41965a', endColorstr='#101713', GradientType=0 );
 }
 
 html, body {
@@ -1272,7 +1281,14 @@ hr {
 		display: none;
 	}
 	
+	#togglegyl{
+		display: none;
+	}
+	
 	.toggle {
+		display: none;
+	}
+	.togglegyl {
 		display: none;
 	}
 	
