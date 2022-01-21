@@ -27,7 +27,6 @@
 	width: 40%;
 	margin-left: 6%;
 	margin-right: 8%;
-	
 	float: left;
 	background: #F0F0E1;
 	height: auto;
@@ -37,7 +36,7 @@
 	text-align: justify;
 	line-height: 25px;
 	color: #717070;
-	font-size: 25px;
+	font-size: 22px;
 	padding-right: 2%;
 	padding-left: 2%;
 }
@@ -50,7 +49,7 @@
 .szakambulancia_left_article ul li{
 	color: #717070;
 	text-align: center;
-	font-size: 25px;
+	font-size: 22px;
 	width: 100%;
 	padding-bottom: 1%
 }
@@ -60,13 +59,13 @@
 	text-align: center;
 	line-height: 25px;
 	color: #717070;
-	font-size: 25px;
+	font-size: 22px;
 	font-weight: bold;
 	padding-top: 2%
 }
 
 table{
-	font-size: 25px;
+	font-size: 22px;
 }
 
 table, th, td {
