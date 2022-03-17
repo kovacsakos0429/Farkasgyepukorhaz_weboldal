@@ -58,14 +58,13 @@ section h1 {
 	padding-bottom: 2%;
 	color: #717070;
 	text-align: left;
-	font-size: 25px;
+	font-size: 22px;
 	width: auto;
-	padding-right: 10%;
-	padding-left: 10%;
 }
 
 .impresszum_left_article span {
 	font-weight: bold;
+	color:#424242
 }
 
 @media (min-width: 769px) and (max-width: 1366px) {

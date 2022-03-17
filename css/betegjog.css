@@ -54,7 +54,7 @@
 	margin-top: 40px;
 	font-weight: bold;
 	font-size: 22px;
-	padding-left: 10%;
+	padding-left: 1%;
 	color:#424242
 }
 
@@ -65,12 +65,12 @@
 }
 
 .betegjog_left_article p {
-	padding-right: 10%;
+	padding-right: 1%;
 	text-align: justify;
 	line-height: 30px;
 	margin-top: 15px;
 	margin-bottom: 15px;
-	padding-left: 10%;
+	padding-left: 1%;
 	color: #717070;
 	font-size: 22px;
 }

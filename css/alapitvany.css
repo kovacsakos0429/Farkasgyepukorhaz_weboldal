@@ -19,18 +19,25 @@ section h1 {
 	height: auto;
 }
 
+.alapitvany_left_article h2 {
+	font-weight: bold;
+	font-size: 22px;
+	padding-left: 1%;
+	color:#424242
+}
 
 .alapitvany_left_article p {
-	padding-right: 10%;
+	padding-right: 1%;
 	text-align: justify;
 	margin-top: 30px;
-	padding-left: 10%;
+	padding-left: 1%;
 	color: #717070;
-	font-size: 25px;
+	font-size: 22px;
 }
 
 .alapitvany_left_article span {
 	font-weight: bold;
+	color:#424242
 }
 
 @media (min-width: 769px) and (max-width: 1366px) {
@@ -63,9 +70,15 @@ section h1 {
 	}
 
 	.alapitvany_left_article p {
-		padding-left: 10%;
-		padding-right: 10%;
 		font-size: 20px;
+	}
+	
+	.alapitvany_left_article h2 {
+		
+		font-weight: bold;
+		font-size: 20px;
+		padding-left: 1%;
+		color:#424242
 	}
 
 }
@@ -80,6 +93,13 @@ section h1 {
 		font-size: 18px;
 		padding-left: 4%;
 		padding-right: 4%;
+	}
+	
+	.alapitvany_left_article h2 {
+		font-weight: bold;
+		font-size: 18px;
+		padding-left: 4%;
+		color:#424242
 	}
 	
 	.alapitvany_left_article{
